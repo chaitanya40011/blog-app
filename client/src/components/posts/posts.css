@@ -1,0 +1,20 @@
+.posts{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px;
+    top: 15px;
+}
+
+.poststitle{
+    display: flex;
+    position: relative;
+    font-family: 'Lora';
+    color: #da9090;
+    font-size: 30px;
+    justify-content: center;
+    top: 10px;
+
+}

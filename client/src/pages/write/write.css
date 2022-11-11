@@ -1,0 +1,85 @@
+.write {
+  padding-top: 50px;
+}
+
+.writeImg {
+  margin-left: 150px;
+  height: 100vh;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.writeForm {
+  position: relative;
+}
+
+.writeFormGroup {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.writeIcon {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  color: rgb(129, 125, 125);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.writeInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+  background-color: #525350;
+  border-radius: 40px;
+  color: #f3efef;
+}
+
+.writeInput::placeholder {
+  color: rgb(189, 185, 185);
+  font-weight: 400;
+}
+
+.writeInput:focus {
+  outline-style: none;
+}
+
+.writeText {
+  width: 70vw;
+  height: 100vh;
+  /* font-family: inherit; */
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.writeSubmit {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  color: white;
+  background-color: #6ab5cd;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 0px rgb(116 116 116);
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: center;
+}
+
+.rt-input-component {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+}
